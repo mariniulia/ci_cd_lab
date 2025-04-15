@@ -10,8 +10,11 @@ spec:
     canary:
       steps:
         - setWeight: 50
-        - pause: { duration: 60s }
-        - setWeight: 100
+        - pause: { duration: 120s }
+        - setWeight: 75
+	- pause: { duration: 120s }
+	- setWeight: 100
+	- pause: { duration: 120s }
   selector:
     matchLabels:
       app: go-simple-webserver

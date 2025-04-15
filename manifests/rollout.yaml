@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/mariniulia/ci_cd_lab@sha256:sha256:4d959b7530505c3330359128572b6b39bb048815a930f6d7b83355698ddb3ead
+          image: ghcr.io/mariniulia/ci_cd_lab@sha256:4d959b7530505c3330359128572b6b39bb048815a930f6d7b83355698ddb3ead
           ports:
             - containerPort: 8080
           imagePullPolicy: Always

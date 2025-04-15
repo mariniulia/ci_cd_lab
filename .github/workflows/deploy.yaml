@@ -1,3 +1,13 @@
+# .github/workflows/deploy.yaml
+name: Build CI/CD
+
+# Trigger the workflow on a commit push to the `main` branch
+on:
+  # Trigger the workflow on a commit push to the `main` branch
+  push:
+    branches:
+      - main
+job:
   build:
     # Specify the OS for the runner
     runs-on: ubuntu-latest
